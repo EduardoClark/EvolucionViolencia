@@ -21,8 +21,12 @@ github:
 
 ## Enero 2013
 
+<div class='source3'>
+Mueve tu cursor sobre el gráfico para visualizar las cifras
+</div>
+
 <div class='source4'>
-<a rel="tooltip" data-original-title="La serie ajustada por estacionalidad representa el numero de averiguaciones previas por homicidio doloso descontando los efectos estacionales propios de cada mes. Es decir ajusta para poder hacer una comparación directa entre meses. <br> La serie tendencia utiliza un promedio movil ponderado de 10 meses. ">Descripción</a>
+<a rel="tooltip" data-original-title="La serie ajustada por estacionalidad representa el numero de averiguaciones previas por homicidio doloso descontando los efectos estacionales propios de cada mes. Es decir ajusta para poder hacer una comparación directa entre meses. <br> La serie tendencia utiliza un promedio movil ponderado de 10 meses.">Descripción</a>
 </div>
 
 
@@ -40,9 +44,9 @@ function gvisDataBarChartID6c1b1ccab3cd () {
 [
  [
  "Enero 2013",
-1544,
-1579,
-1591 
+{ v:1544, f: "1,544"},
+{ v:1579, f: "1,579"},
+{ v: 1591, f: "1,591"} 
 ] 
 ];
 data.addColumn('string','Mes');
@@ -137,13 +141,12 @@ Homicidios Dolosos(SNSP)*:<br><br>
 <font color="black" face="Open Sans" size="5">
 <ul>
 <li>Totales: 1,544</li>
-<li>Con arma de fuego: 788</li>
+<li>Variación 2012-2013: -7.8% </liv>
 </ul>
 </font>
 </div>
 <div style="float: right; width: 50%;">
 <body>
-<basefont color="black" face="Open Sans Bold" size="8">
 Variación Diciembre-Enero: <br><br>
 <font color="black" face="Open Sans Bold" size="5">
 <ul>
@@ -170,6 +173,10 @@ Variación Diciembre-Enero: <br><br>
 
 ## Febrero 2013
 
+<div class='source3'>
+Mueve tu cursor sobre el gráfico para visualizar las cifras
+</div>
+
 
 <!-- BarChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 <!-- Wed Apr  3 16:29:59 2013 -->
@@ -183,11 +190,11 @@ function gvisDataBarChartID6c5932779ca5 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
- [
+[
  "Febrero 2013",
-1432,
-1568,
-1591 
+{ v:1432, f: "1,432"},
+{ v:1568, f: "1,568"},
+{ v: 1591, f: "1,591"} 
 ] 
 ];
 data.addColumn('string','Mes');
@@ -281,7 +288,7 @@ Homicidios Dolosos (SNSP):<br><br>
 <font color="black" face="Open Sans" size="5">
 <ul>
 <li>Totales: 1,432</li>
-<li>Con arma de fuego: 729</li>
+<li>Variación 2012-2013: -12.1% </liv>
 </ul>
 </font>
 </div>
@@ -304,9 +311,17 @@ Variación Enero-Febrero: <br><br>
 </div>
 
 
+
 ---
 
+
+
+
 ## Marzo 2013
+
+<div class='source3'>
+Mueve tu cursor sobre el gráfico para visualizar las cifras
+</div>
 
 <!-- BarChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 <!-- Wed Apr  3 16:29:59 2013 -->
@@ -320,11 +335,11 @@ function gvisDataBarChartID6c5932779ca6 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
- [
+[
  "Marzo 2013",
-1432,
-1568,
-1591 
+{ v:1624, f: "1,624"},
+{ v:1603, f: "1,603"},
+{ v: 1597, f: "1,597"} 
 ] 
 ];
 data.addColumn('string','Mes');
@@ -412,16 +427,14 @@ function displayChartBarChartID6c5932779ca6() {
 
 
 
-
-
 <div style="float: left; width: 50%;">
 <body>
 <basefont color="black" face="Open Sans Bold" size="8">
 Homicidios Dolosos (SNSP):<br><br>
 <font color="black" face="Open Sans" size="5">
 <ul>
-<li>Totales: 1,432</li>
-<li>Con arma de fuego: 729</li>
+<li>Totales: 1,624</li>
+<li>Variación 2012-2013: -8.9% </liv>
 </ul>
 </font>
 </div>
@@ -431,9 +444,9 @@ Homicidios Dolosos (SNSP):<br><br>
 Variación Febrero-Marzo: <br><br>
 <font color="black" face="Open Sans Bold" size="5">
 <ul>
-<li> Serie SNSP: -7.3% </li>
-<li> Ajustado por Estacionalidad: -0.6% </li>
-<li> Tendencial: 0% </li>
+<li> Serie SNSP: 13.3% </li>
+<li> Ajustado por Estacionalidad: 2.6% </li>
+<li> Tendencial: 0.9% </li>
 </ul>
 </font>
 <br><br>
@@ -451,6 +464,10 @@ Variación Febrero-Marzo: <br><br>
 <a rel="tooltip" data-original-title="La serie Ajustada por Estacionalidad representa el numero de averiguaciones previas por homicidio doloso descontando los efectos estacionales propios de cada mes. Es decir ajusta para poder hacer una comparación directa entre meses. <br> La serie tendencia utiliza un promedio movil ponderado de 10 meses. ">Descripción</a>
 </div>
 
+<div class='source3'>
+Mueve tu cursor sobre el gráfico para visualizar las cifras
+</div>
+
 
 <!-- BarChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 <!-- Wed Apr  3 16:29:59 2013 -->
@@ -464,11 +481,11 @@ function gvisDataBarChartID6c5932779ca7 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
- [
+[
  "1er Trimestre 2013",
-1432,
-1568,
-1591 
+{ v:4601, f: "4,601"},
+{ v:4743, f: "4,743"},
+{ v: 4773, f: "4,773"} 
 ] 
 ];
 data.addColumn('string','Mes');
@@ -490,7 +507,7 @@ options["colors"] = ['#E64343', '#999999', '#585454'];
 options["hAxis"] = {
  "viewWindowMode": "explicit",
 "viewWindow": {
- "max":   1800,
+ "max":   5000,
 "min":      0 
 } 
 };
@@ -562,8 +579,7 @@ function displayChartBarChartID6c5932779ca7() {
 Homicidios Dolosos (SNSP):<br><br>
 <font color="black" face="Open Sans" size="5">
 <ul>
-<li>Totales: 1,432</li>
-<li>Con arma de fuego: 729</li>
+<li>Totales: 4,601</li>
 </ul>
 </font>
 </div>
@@ -573,9 +589,9 @@ Homicidios Dolosos (SNSP):<br><br>
 Variación 4to Trimestre 2012- 1er Trimestre 2013: <br><br>
 <font color="black" face="Open Sans Bold" size="5">
 <ul>
-<li> Serie SNSP: -7.3% </li>
-<li> Ajustado por Estacionalidad: -0.6% </li>
-<li> Tendencial: 0% </li>
+<li> Serie SNSP: -0.6% </li>
+<li> Ajustado por Estacionalidad: -0.3% </li>
+<li> Tendencial: -2% </li>
 </ul>
 </font>
 <br><br>
@@ -587,6 +603,11 @@ Variación 4to Trimestre 2012- 1er Trimestre 2013: <br><br>
 
 ## Situación Estatal
 # Marzo: 2012 vs. 2013
+
+<div class='source3'>
+Mueve tu cursor sobre un estado para visualizar los datos
+</div>
+
 
 <div class='source4'>
 <a rel="tooltip" data-original-title="El mapa compara el numero de APs por homicidio doloso por estado para los meses de Marzo 2012 y Marzo 2013. Aquellos estados en azul presentaron un menor numero de APs en Marzo 2013 que en Marzo 2012, mientras que los estados en rojo lo opuesto. Ademas se proporciona el cambio porcentual entre estos dos meses y el numero de APs por estado para el periodo Marzo 2013.">Descripción</a>
@@ -606,168 +627,168 @@ function gvisDataGeoChartID6ef827871b77 () {
 [
  [
  "Aguascalientes",
--40,
-7 
+{v: -66.7 , f:' -66.7% '},
+2 
 ],
 [
  "Baja California",
-17,
-114 
-],
-[
- "Baja California Sur",
-0,
-6 
-],
-[
- "Campeche",
-0,
-5 
-],
-[
- "Chiapas",
-29,
-96 
-],
-[
- "Chihuahua",
--40.7,
-229 
-],
-[
- "Coahuila",
--11.8,
-119 
-],
-[
- "Colima",
-9.1,
+{v: 56.8 , f:' 56.8% '},
 58 
 ],
 [
- "Distrito Federal",
--16.8,
-131 
+ "Baja California Sur",
+{v: -40 , f:' -40% '},
+3 
 ],
 [
- "Durango",
--36.5,
-92 
+ "Campeche",
+{v: 50 , f:' 50% '},
+6 
 ],
 [
- "Guanajuato",
--8.5,
+ "Chiapas",
+{v: 6 , f:' 6% '},
+53 
+],
+[
+ "Chihuahua",
+{v: -37.1 , f:' -37.1% '},
+132 
+],
+[
+ "Coahuila",
+{v: 48.1 , f:' 48.1% '},
 80 
 ],
 [
- "Guerrero",
-27.3,
-329 
+ "Colima",
+{v: -10.5 , f:' -10.5% '},
+17 
 ],
 [
- "Hidalgo",
-16.7,
-7 
+ "Distrito Federal",
+{v: 17.7 , f:' 17.7% '},
+73 
 ],
 [
- "Jalisco",
-15.3,
-113 
+ "Durango",
+{v: -31 , f:' -31% '},
+40 
 ],
 [
- "México",
-17.2,
-136 
-],
-[
- "Michoacán",
-11.1,
+ "Guanajuato",
+{v: -12.3 , f:' -12.3% '},
 50 
 ],
 [
+ "Guerrero",
+{v: -12.9 , f:' -12.9% '},
+162 
+],
+[
+ "Hidalgo",
+{v: 80 , f:' 80% '},
+9 
+],
+[
+ "Jalisco",
+{v: 22.1 , f:' 22.1% '},
+116 
+],
+[
+ "México",
+{v: -25.2 , f:' -25.2% '},
+98 
+],
+[
+ "Michoacán",
+{v: 38.7 , f:' 38.7% '},
+86 
+],
+[
  "Morelos",
-25.5,
-59 
+{v: 14.5 , f:' 14.5% '},
+63 
 ],
 [
  "Nayarit",
--47.6,
-11 
+{v: -19.2 , f:' -19.2% '},
+21 
 ],
 [
- "Nuevo León",
--63.8,
-71 
+ "Nuevo león",
+{v: -67.8 , f:' -67.8% '},
+55 
 ],
 [
  "Oaxaca",
--3,
-32 
+{v: 2.2 , f:' 2.2% '},
+47 
 ],
 [
  "Puebla",
-1.8,
-56 
+{v: -8.9 , f:' -8.9% '},
+41 
 ],
 [
  "Querétaro",
-83.3,
-11 
+{v: 200 , f:' 200% '},
+9 
 ],
 [
  "Quintana Roo",
--43.5,
-13 
+{v: 50 , f:' 50% '},
+24 
 ],
 [
  "San Luis Potosí",
-114.3,
-30 
+{v: 140.9 , f:' 140.9% '},
+53 
 ],
 [
  "Sinaloa",
--37.5,
-75 
+{v: -16.3 , f:' -16.3% '},
+118 
 ],
 [
  "Sonora",
-27.3,
-42 
+{v: 83.9 , f:' 83.9% '},
+57 
 ],
 [
  "Tabasco",
-40,
-7 
+{v: -42.9 , f:' -42.9% '},
+8 
 ],
 [
  "Tamaulipas",
--31.1,
-42 
+{v: -40.9 , f:' -40.9% '},
+55 
 ],
 [
  "Tlaxcala",
-75,
-7 
+{v: 28.6 , f:' 28.6% '},
+9 
 ],
 [
  "Veracruz",
--1.9,
-51 
+{v: 75.7 , f:' 75.7% '},
+65 
 ],
 [
  "Yucatán",
-0,
-2
+{v: 33.3 , f:' 33.3% '},
+4 
 ],
 [
  "Zacatecas",
-14.3,
-8
+{v: 0 , f:' 0% '},
+10 
 ] 
 ];
 data.addColumn('string','Entidad');
-data.addColumn('number','Cambio Marzo 2012 Vs Marzo 2013 (%)');
-data.addColumn('number', 'Homicidios Febrero 2013');
+data.addColumn('number','Cambio Marzo 2012 Vs Marzo 2013');
+data.addColumn('number', 'Homicidios Marzo 2013');
 data.addRows(datajson);
 return(data);
 }
@@ -851,6 +872,10 @@ function displayChartGeoChartID6ef827871b77() {
 ## Situación Estatal
 # Primer Trimestre: 2012 vs. 2013
 
+<div class='source3'>
+Mueve tu cursor sobre un estado para visualizar los datos
+</div>
+
 
 <!-- GeoChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 <!-- Wed Apr  3 17:13:18 2013 -->
@@ -866,168 +891,168 @@ function gvisDataGeoChartID6f7b8361559 () {
 [
  [
  "Aguascalientes",
-0,
-7 
+{v: -30.8 , f:' -30.8% '},
+9 
 ],
 [
  "Baja California",
-4.6,
-114 
+{v: 17.8 , f:' 17.8% '},
+172 
 ],
 [
  "Baja California Sur",
--14.3,
-6 
+{v: -25 , f:' -25% '},
+9 
 ],
 [
  "Campeche",
--50,
-5 
+{v: -21.4 , f:' -21.4% '},
+11 
 ],
 [
  "Chiapas",
-23.1,
-96 
+{v: 16.4 , f:' 16.4% '},
+149 
 ],
 [
  "Chihuahua",
--40.7,
-229 
+{v: -39.4 , f:' -39.4% '},
+361 
 ],
 [
  "Coahuila",
-14.4,
-119 
+{v: 25.9 , f:' 25.9% '},
+199 
 ],
 [
  "Colima",
-38.1,
-58 
+{v: 23 , f:' 23% '},
+75 
 ],
 [
  "Distrito Federal",
-0,
-131 
+{v: 5.7 , f:' 5.7% '},
+204 
 ],
 [
  "Durango",
--23.3,
-92 
+{v: -25.8 , f:' -25.8% '},
+132 
 ],
 [
  "Guanajuato",
--7,
-80 
+{v: -9.1 , f:' -9.1% '},
+130 
 ],
 [
  "Guerrero",
-12.7,
-329 
+{v: 2.7 , f:' 2.7% '},
+491 
 ],
 [
  "Hidalgo",
-225,
-25 
+{v: 100 , f:' 100% '},
+26 
 ],
 [
  "Jalisco",
-15.2,
-212 
+{v: 17.6 , f:' 17.6% '},
+328 
 ],
 [
  "México",
-28.1,
-287 
+{v: 8.5 , f:' 8.5% '},
+385 
 ],
 [
  "Michoacán",
-3,
-103 
+{v: 16.7 , f:' 16.7% '},
+189 
 ],
 [
  "Morelos",
-11.1,
-110 
+{v: 12.3 , f:' 12.3% '},
+173 
 ],
 [
  "Nayarit",
--43.2,
-25 
+{v: -34.3 , f:' -34.3% '},
+46 
 ],
 [
  "Nuevo León",
--47.8,
-180 
+{v: -54.5 , f:' -54.5% '},
+235 
 ],
 [
  "Oaxaca",
--37,
-58 
+{v: -23.9 , f:' -23.9% '},
+105 
 ],
 [
  "Puebla",
--20.8,
-95 
+{v: -17.6 , f:' -17.6% '},
+136 
 ],
 [
  "Querétaro",
-23.1,
-16 
+{v: 56.2 , f:' 56.2% '},
+25 
 ],
 [
  "Quintana Roo",
--32.7,
-33 
+{v: -12.3 , f:' -12.3% '},
+57 
 ],
 [
  "San Luis Potosí",
-28.9,
-49 
+{v: 70 , f:' 70% '},
+102 
 ],
 [
  "Sinaloa",
--17.9,
-184 
+{v: -17.3 , f:' -17.3% '},
+302 
 ],
 [
  "Sonora",
-3.9,
-79 
+{v: 27.1 , f:' 27.1% '},
+136 
 ],
 [
  "Tabasco",
--20,
-16 
+{v: -29.4 , f:' -29.4% '},
+24 
 ],
 [
  "Tamaulipas",
--23.6,
-110 
+{v: -30.4 , f:' -30.4% '},
+165 
 ],
 [
  "Tlaxcala",
-160,
-13 
+{v: 83.3 , f:' 83.3% '},
+22 
 ],
 [
  "Veracruz",
--1.1,
-91 
+{v: 20.9 , f:' 20.9% '},
+156 
 ],
 [
  "Yucatán",
--40,
-3 
+{v: -12.5 , f:' -12.5% '},
+7 
 ],
 [
  "Zacatecas",
--8.3,
-22 
+{v: -5.9 , f:' -5.9% '},
+32 
 ] 
 ];
 data.addColumn('string','Entidad');
-data.addColumn('number','Cambio 2012 vs 2013 (%)');
-data.addColumn('number','Homicidios Enero Y Febrero 2013');
+data.addColumn('number','Cambio 2012 vs 2013');
+data.addColumn('number','Homicidios 1er Trimestre 2013');
 data.addRows(datajson);
 return(data);
 }
@@ -1041,7 +1066,7 @@ options["height"] =    450;
 options["region"] = "MX";
 options["displayMode"] = "regions";
 options["resolution"] = "provinces";
-options["colorAxis"] = {minValue: -50, maxValue: 50,  colors: ['royalblue', "white",  '#E64343']};
+options["colorAxis"] = {minValue: -100, maxValue: 100,  colors: ['royalblue', "white",  '#E64343']};
 options["legend"] = {numberFormat: "#.#'%"};
 
      var chart = new google.visualization.GeoChart(
@@ -1104,12 +1129,16 @@ function displayChartGeoChartID6f7b8361559() {
 </div>
 
 <div class='source4'>
-<a rel="tooltip" data-original-title="El mapa compara el numero de APs de Homicidio Doloso por estado para el primer trimestre de 2012 y el primer trimestre de 2013. Aquellos estados en azul presentaron un menor numero de APs en 2013 que en 2012, mientras que los estados en rojo lo opuesto. Ademas se proporciona el cambio porcentual entre estos dos trimestres y el numero de APs por estado para el primer trimestre de 2013.">Descripción</a>
+<a rel="tooltip" data-original-title="El mapa compara el numero de APs por homicidio doloso por estado para el primer trimestre de 2012 y el primer trimestre de 2013. Aquellos estados en azul presentaron un menor numero de APs en 2013 que en 2012, mientras que los estados en rojo lo opuesto. Se proporciona el cambio porcentual entre estos dos trimestres y el numero de APs por estado para el primer trimestre de 2013.">Descripción</a>
 </div>
 
 ---
 
 ## Proyecciones
+
+<div class='source3'>
+Mueve tu cursor sobre el gráfico para visualizar las cifras
+</div>
 
 <!-- ColumnChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 <!-- Tue Apr  9 16:05:10 2013 -->
@@ -1125,21 +1154,21 @@ function gvisDataColumnChartID24e7724c982 () {
 [
  [
  "Abril 2013",
-1657,
-1604,
-1551 
+1565,
+1619,
+1673 
 ],
 [
  "Mayo 2013",
-1667,
-1605,
-1543 
+1686  ,
+1754,
+1822 
 ] 
 ];
 data.addColumn('string','Mes');
-data.addColumn('number','Estimado Alto');
-data.addColumn('number','Mejor Estimado');
 data.addColumn('number','Estimado Bajo');
+data.addColumn('number','Mejor Estimado');
+data.addColumn('number','Estimado Alto');
 data.addRows(datajson);
 return(data);
 }
@@ -1227,7 +1256,8 @@ function displayChartColumnChartID24e7724c982() {
 Estimación Abril 2013:<br><br>
 <font color="black" face="Open Sans" size="5">
 <ul>
-<li> Homicidios Dolosos: 1,604</li>
+<li>APs por Homicidio Dolosos: 1,619</li>
+<li> Ajustado por estacionalidad: 1,604 </li>
 </ul>
 </font>
 </div>
@@ -1238,7 +1268,8 @@ Estimación Abril 2013:<br><br>
 Proyección Mayo 2013:<br><br>
 <font color="black" face="Open Sans" size="5">
 <ul>
-<li> Averiguaciones Previas de Homicidios Dolosos: 1,605 </li>
+<li> APs por Homicidio Dolosos: 1,754 </li>
+<li> Ajustado por estacionalidad: 1,609 </li>
 </ul>
 </font>
 </div>
@@ -1249,6 +1280,11 @@ Proyección Mayo 2013:<br><br>
 
 ## Serie Ajustada por Estacionalidad
 # 1997-2013
+
+<div class='source3'>
+Mueve tu cursor el gráfico para visualizar los datos
+</div>
+
 
 
 <!-- AreaChart generated in R 2.15.3 by googleVis 0.4.2 package -->
@@ -1562,6 +1598,10 @@ function gvisDataAreaChartID7c02224e1bba () {
 [
  "2013-02-01",
 1432 
+],
+[
+ "2013-03-01",
+1624 
 ] 
 ];
 data.addColumn('string','Date');
@@ -1654,7 +1694,7 @@ function displayChartAreaChartID7c02224e1bba() {
 </div>
 
 <div class='source4'>
-<a rel="tooltip" data-original-title="El siguiente gráfico presenta la serie de tiempo de Averiguaciones Previas por Homicidio Doloso entre Diciembre 2006 y Marzo 2013.">Descripción</a>
+<a rel="tooltip" data-original-title="El gráfico presenta la serie de tiempo de averiguaciones previas por homicidio doloso entre Diciembre 2006 y Marzo 2013.">Descripción</a>
 </div>
 
 
@@ -1663,8 +1703,8 @@ function displayChartAreaChartID7c02224e1bba() {
 ## Serie Ajustada por Estacionalidad
 # 1997-2013
 
-<div class='source4'>
-<a rel="tooltip" data-original-title="">Descripción</a>
+<div class='source3'>
+Mueve tu cursor el gráfico para visualizar los datos
 </div>
 
 <!-- AreaChart generated in R 2.15.3 by googleVis 0.4.2 package -->
@@ -2053,6 +2093,11 @@ function gvisDataAreaChartID7c5e64f6746d () {
  "2013-02-01",
 1432,
 1569 
+],
+[
+ "2013-03-01",
+1624,
+1603
 ] 
 ];
 data.addColumn('string','Date');
@@ -2146,7 +2191,7 @@ function displayChartAreaChartID7c5e64f6746d() {
 </div>
 
 <div class='source4'>
-<a rel="tooltip" data-original-title="El siguiente gráfico presenta la serie de tiempo de Averiguaciones Previas por Homicidio Doloso y la cifra ajustada por estacionalidad entre Diciembre 2006 y Marzo 2013.">Descripción</a>
+<a align="justify"  rel="tooltip" data-original-title="El gráfico presenta la serie de tiempo de averiguaciones previas por Homicidio Doloso y la cifra ajustada por estacionalidad entre Diciembre 2006 y Marzo 2013.">Descripción</a>
 </div>
 
 
@@ -2154,6 +2199,10 @@ function displayChartAreaChartID7c5e64f6746d() {
 
 ## Serie Ajustada por Estacionalidad
 # 1997-2013
+
+<div class='source3'>
+Mueve tu cursor el gráfico para visualizar los datos
+</div>
 
 <!-- AreaChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 <!-- Tue Apr  9 14:53:49 2013 -->
@@ -2616,6 +2665,12 @@ function gvisDataAreaChartID7cc2d60687d () {
 1425,
 1562,
 1584 
+],
+[
+ "Marzo 2013",
+1624,
+1603,
+1598
 ] 
 ];
 data.addColumn('string','Date');
@@ -2709,7 +2764,7 @@ function displayChartAreaChartID7cc2d60687d() {
 </div>
 
 <div class='source4'>
-<a rel="tooltip" data-original-title="El siguiente gráfico presenta la serie de tiempo de Averiguaciones Previas por Homicidio Doloso, la cifra ajustada por estacionalidad y la evolución tendencial de la serie entre Diciembre 2006 y Marzo 2013.">Descripción</a>
+<a rel="tooltip" data-original-title="El gráfico presenta la serie de tiempo de Averiguaciones Previas por Homicidio Doloso, la cifra ajustada por estacionalidad y la evolución tendencial de la serie entre Diciembre 2006 y Marzo 2013.">Descripción</a>
 </div>
 
 
@@ -2721,7 +2776,7 @@ function displayChartAreaChartID7cc2d60687d() {
 <iframe src="http://glimmer.rstudio.com/eduardoclark/homicidios/" height=400 width=1000 ></iframe>
 
 <div class='source2'>
-<a rel="tooltip" data-original-title="La siguiente calculadora proporciona el numero mensual de averiguaciones previas para Homicidios Dolosos que se tendria dada la reducción porcentual en el numero mensual de homicidios al llegar el final de presente sexenio. Adicionalmente se calcula el numero total de APs en el sexenio y la diferencia con respecto al sexenio 2006-2012. Esta calculadora asume una caida lineal constante ">Descripción</a>
+<a rel="tooltip" data-original-title="La calculadora proporciona el numero mensual de averiguaciones previas para Homicidios Dolosos que se tendria dada la reducción porcentual en el numero mensual de homicidios al llegar el final de presente sexenio. Adicionalmente se calcula el numero total de APs en el sexenio y la diferencia con respecto al sexenio 2006-2012. Esta calculadora asume una caida lineal constante ">Descripción</a>
 </div>
 
 <div class='source3'>
@@ -2731,6 +2786,10 @@ Si no puedes ver la calculadora, refresca tu explorador
 ---
 
 ## Si México fuera...
+
+<div class='source3'>
+Mueve tu cursor sobre el país deseado para visualizar los resultados
+</div>
 
 
 
@@ -2747,17 +2806,17 @@ function gvisDataGeoChartID1a2b753b8e00 () {
   var datajson =
 [
  [
- " Honduras",
+ "Honduras",
 85412,
 "Hubiéramos tenido 105,966 homicidios. 85,412 homicidios más que los ocurridos en 2012." 
 ],
 [
- " El Salvador",
+ "El Salvador",
 59499,
 "Hubiéramos tenido  80,053 homicidios. 59,499 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Côte d'Ivoire",
+ "Costa de Marfil",
 45270,
 "Hubiéramos tenido  65,824 homicidios. 45,270 homicidios más que los ocurridos en 2012." 
 ],
@@ -2807,17 +2866,17 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  41,646 homicidios. 21,092 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Lesotho",
+ " Lesoto",
 20166,
 "Hubiéramos tenido  40,720 homicidios. 20,166 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Trinidad and Tobago",
+ " Trinidad y Tobago",
 20166,
 "Hubiéramos tenido  40,720 homicidios. 20,166 homicidios más que los ocurridos en 2012." 
 ],
 [
- " South Africa",
+ "Sudáfrica",
 16233,
 "Hubiéramos tenido  36,787 homicidios. 16,233 homicidios más que los ocurridos en 2012." 
 ],
@@ -2832,7 +2891,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  35,630 homicidios. 15,076 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Central African Republic",
+ "República Central Africana",
 13341,
 "Hubiéramos tenido  33,895 homicidios. 13,341 homicidios más que los ocurridos en 2012." 
 ],
@@ -2852,7 +2911,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  29,152 homicidios.  8,598 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Dominican Republic",
+ "República Dominicana",
 8367,
 "Hubiéramos tenido  28,921 homicidios.  8,367 homicidios más que los ocurridos en 2012." 
 ],
@@ -2862,7 +2921,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  28,342 homicidios.  7,788 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Sudan",
+ " Sudán",
 7441,
 "Hubiéramos tenido  27,995 homicidios.  7,441 homicidios más que los ocurridos en 2012." 
 ],
@@ -2872,12 +2931,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  26,491 homicidios.  5,937 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Mexico",
-5706,
-"Hubiéramos tenido  26,260 homicidios.  5,706 homicidios más que los ocurridos en 2012." 
-],
-[
- " Ethiopia",
+ "Etiopía",
 5475,
 "Hubiéramos tenido  26,029 homicidios.  5,475 homicidios más que los ocurridos en 2012." 
 ],
@@ -2897,7 +2951,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  25,103 homicidios.  4,549 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Democratic Republic of the Congo",
+ "República Democrática del Congo",
 4549,
 "Hubiéramos tenido  25,103 homicidios.  4,549 homicidios más que los ocurridos en 2012." 
 ],
@@ -2907,7 +2961,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  24,987 homicidios.  4,433 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Brazil",
+ " Brasil",
 3739,
 "Hubiéramos tenido  24,293 homicidios.  3,739 homicidios más que los ocurridos en 2012." 
 ],
@@ -2922,7 +2976,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  23,368 homicidios.  2,814 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Kenya",
+ " Kenia",
 2698,
 "Hubiéramos tenido  23,252 homicidios.  2,698 homicidios más que los ocurridos en 2012." 
 ],
@@ -2942,7 +2996,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  22,790 homicidios.  2,236 homicidios más que los ocurridos en 2012." 
 ],
 [
- " Greenland",
+ "Groenlandia",
 1657,
 "Hubiéramos tenido  22,211 homicidios.  1,657 homicidios más que los ocurridos en 2012." 
 ],
@@ -2992,7 +3046,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  18,162 homicidios.  2,392 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " North Korea",
+ "Corea del Norte",
 -2970,
 "Hubiéramos tenido  17,584 homicidios.  2,970 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3017,7 +3071,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  16,774 homicidios.  3,780 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Zimbabwe",
+ "Zimbabue",
 -4011,
 "Hubiéramos tenido  16,543 homicidios.  4,011 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3032,17 +3086,17 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  15,733 homicidios.  4,821 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " French Guiana",
+ "Guayana Francesa",
 -5168,
 "Hubiéramos tenido  15,386 homicidios.  5,168 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Papua New Guinea",
+ "Papúa Nueva Guinea",
 -5515,
 "Hubiéramos tenido  15,039 homicidios.  5,515 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Swaziland",
+ "Suazilandia",
 -5631,
 "Hubiéramos tenido  14,923 homicidios.  5,631 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3092,7 +3146,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  12,494 homicidios.  8,060 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Peru",
+ "Perú",
 -8639,
 "Hubiéramos tenido  11,915 homicidios.  8,639 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3102,7 +3156,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido  11,800 homicidios.  8,754 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Russia",
+ " Rusia",
 -8754,
 "Hubiéramos tenido  11,800 homicidios.  8,754 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3222,7 +3276,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   7,866 homicidios. 12,688 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Lithuania",
+ "Lituania",
 -12919,
 "Hubiéramos tenido   7,635 homicidios. 12,919 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3237,12 +3291,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   6,710 homicidios. 13,844 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Philippines",
+ "Filipinas",
 -14307,
 "Hubiéramos tenido   6,247 homicidios. 14,307 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Ukraine",
+ "Ucrania",
 -14538,
 "Hubiéramos tenido   6,016 homicidios. 14,538 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3257,27 +3311,27 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   5,784 homicidios. 14,770 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Belarus",
+ "Bielorrusia",
 -14886,
 "Hubiéramos tenido   5,668 homicidios. 14,886 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " United States",
+ "Estados Unidos",
 -15001,
 "Hubiéramos tenido   5,553 homicidios. 15,001 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Thailand",
+ "Tailandia",
 -15001,
 "Hubiéramos tenido   5,553 homicidios. 15,001 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Suriname",
+ "Surinam",
 -15233,
 "Hubiéramos tenido   5,321 homicidios. 15,233 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Laos",
+ "Laos",
 -15233,
 "Hubiéramos tenido   5,321 homicidios. 15,233 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3292,7 +3346,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   4,859 homicidios. 15,695 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Turkmenistan",
+ "Turkmenistán",
 -15695,
 "Hubiéramos tenido   4,859 homicidios. 15,695 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3347,7 +3401,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   3,933 homicidios. 16,621 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Turkey",
+ "Turquía",
 -16736,
 "Hubiéramos tenido   3,818 homicidios. 16,736 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3362,12 +3416,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   3,702 homicidios. 16,852 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Uzbekistan",
+ "Uzbekistán",
 -16968,
 "Hubiéramos tenido   3,586 homicidios. 16,968 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Latvia",
+ "Letonia",
 -16968,
 "Hubiéramos tenido   3,586 homicidios. 16,968 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3377,7 +3431,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   3,470 homicidios. 17,084 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Libya",
+ "Libia",
 -17199,
 "Hubiéramos tenido   3,355 homicidios. 17,199 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3402,7 +3456,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   3,123 homicidios. 17,431 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " South Korea",
+ "Corea del Sur",
 -17546,
 "Hubiéramos tenido   3,008 homicidios. 17,546 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3417,22 +3471,22 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   2,892 homicidios. 17,662 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Afghanistan",
+ "Afganistán",
 -17778,
 "Hubiéramos tenido   2,776 homicidios. 17,778 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Malaysia",
+ "Malasia",
 -17893,
 "Hubiéramos tenido   2,661 homicidios. 17,893 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Syria",
+ "Siria",
 -17893,
 "Hubiéramos tenido   2,661 homicidios. 17,893 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Azerbaijan",
+ "Azerbaiyán",
 -18009,
 "Hubiéramos tenido   2,545 homicidios. 18,009 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3442,12 +3496,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   2,545 homicidios. 18,009 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Lebanon",
+ "Líbano",
 -18009,
 "Hubiéramos tenido   2,545 homicidios. 18,009 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Finland",
+ "Finlandia",
 -18009,
 "Hubiéramos tenido   2,545 homicidios. 18,009 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3472,7 +3526,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   2,314 homicidios. 18,240 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Romania",
+ "Rumania",
 -18240,
 "Hubiéramos tenido   2,314 homicidios. 18,240 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3487,22 +3541,22 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   2,198 homicidios. 18,356 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Jordan",
+ "Jordania",
 -18472,
 "Hubiéramos tenido   2,082 homicidios. 18,472 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Cyprus",
+ "Chipre",
 -18587,
 "Hubiéramos tenido   1,967 homicidios. 18,587 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Czech Republic",
+ "República Checa",
 -18587,
 "Hubiéramos tenido   1,967 homicidios. 18,587 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Belgium",
+ "Bélgica",
 -18587,
 "Hubiéramos tenido   1,967 homicidios. 18,587 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3532,7 +3586,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,735 homicidios. 18,819 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Slovakia",
+ "Eslovaquia",
 -18819,
 "Hubiéramos tenido   1,735 homicidios. 18,819 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3542,12 +3596,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,735 homicidios. 18,819 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Greece",
+ "Grecia",
 -18819,
 "Hubiéramos tenido   1,735 homicidios. 18,819 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Morocco",
+ "Marruecos",
 -18934,
 "Hubiéramos tenido   1,620 homicidios. 18,934 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3557,12 +3611,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,620 homicidios. 18,934 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Croatia",
+ "Croacia",
 -18934,
 "Hubiéramos tenido   1,620 homicidios. 18,934 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Hungary",
+ "Hungría",
 -19050,
 "Hubiéramos tenido   1,504 homicidios. 19,050 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3572,22 +3626,22 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,504 homicidios. 19,050 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Egypt",
+ "Egipto",
 -19166,
 "Hubiéramos tenido   1,388 homicidios. 19,166 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Ireland",
+ "Irlanda",
 -19166,
 "Hubiéramos tenido   1,388 homicidios. 19,166 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " United Kingdom",
+ "Reino Unido",
 -19166,
 "Hubiéramos tenido   1,388 homicidios. 19,166 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Portugal",
+ "Portugal",
 -19166,
 "Hubiéramos tenido   1,388 homicidios. 19,166 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3602,17 +3656,17 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,273 homicidios. 19,281 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Poland",
+ "Polonia",
 -19281,
 "Hubiéramos tenido   1,273 homicidios. 19,281 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " France",
+ "Francia",
 -19281,
 "Hubiéramos tenido   1,273 homicidios. 19,281 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Netherlands",
+ "Países Bajos",
 -19281,
 "Hubiéramos tenido   1,273 homicidios. 19,281 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3632,12 +3686,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,157 homicidios. 19,397 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Saudi Arabia",
+ "Arabia Saudita",
 -19397,
 "Hubiéramos tenido   1,157 homicidios. 19,397 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Sweden",
+ "Suecia",
 -19397,
 "Hubiéramos tenido   1,157 homicidios. 19,397 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3662,17 +3716,17 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,041 homicidios. 19,513 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Denmark",
+ "Dinamarca",
 -19513,
 "Hubiéramos tenido   1,041 homicidios. 19,513 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Italy",
+ "Italia",
 -19513,
 "Hubiéramos tenido   1,041 homicidios. 19,513 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " New Zealand",
+ "Nueva Zelanda",
 -19513,
 "Hubiéramos tenido   1,041 homicidios. 19,513 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3687,17 +3741,17 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido   1,041 homicidios. 19,513 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " United Arab Emirates",
+ "Emiratos Árabes Unidos",
 -19629,
 "Hubiéramos tenido     925 homicidios. 19,629 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Spain",
+ "España",
 -19629,
 "Hubiéramos tenido     925 homicidios. 19,629 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Germany",
+ "Alemania",
 -19629,
 "Hubiéramos tenido     925 homicidios. 19,629 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3712,12 +3766,12 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido     810 homicidios. 19,744 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Slovenia",
+ "Eslovenia",
 -19744,
 "Hubiéramos tenido     810 homicidios. 19,744 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Switzerland",
+ "Suiza",
 -19744,
 "Hubiéramos tenido     810 homicidios. 19,744 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3727,7 +3781,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido     694 homicidios. 19,860 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Norway",
+ "Noruega",
 -19860,
 "Hubiéramos tenido     694 homicidios. 19,860 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3747,7 +3801,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido     578 homicidios. 19,976 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Japan",
+ " Japón",
 -20091,
 "Hubiéramos tenido     463 homicidios. 20,091 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3762,7 +3816,7 @@ function gvisDataGeoChartID1a2b753b8e00 () {
 "Hubiéramos tenido     347 homicidios. 20,207 homicidios menos que los ocurridos en 2012." 
 ],
 [
- " Iceland",
+ "Islandia",
 -20207,
 "Hubiéramos tenido     347 homicidios. 20,207 homicidios menos que los ocurridos en 2012." 
 ],
@@ -3861,7 +3915,7 @@ function displayChartGeoChartID1a2b753b8e00() {
 </div>
 
 <div class='source4'>
-<a rel="tooltip" data-original-title="El siguiente gráfico presenta el numero de homicidios que hubieran ocurrido en México en 2012 si se tuviera la tasa de homicidios del país seleccionado. <br> Adicionalmente se incluye la diferencia en el numero de homicidios en 2012 y los que se hubieran tenido bajo la tasa del país seleccionado.">Descripción</a>
+<a rel="tooltip" data-original-title="El gráfico presenta el numero de homicidios que hubieran ocurrido en México en 2012 si se tuviera la tasa de homicidios del país seleccionado. <br> Adicionalmente se incluye la diferencia en el numero de homicidios en 2012 y los que se hubieran tenido bajo la tasa del país seleccionado.">Descripción</a>
 </div>
 
 
