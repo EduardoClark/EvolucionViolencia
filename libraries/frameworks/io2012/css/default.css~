@@ -1136,12 +1136,12 @@ article.smaller q:before, article.smaller q:after {
 }
 
 /* line 761, ../scss/default.scss */
-.Titulo6 {
+.Titulo1 {
   font-size: 35x;
   color: #6B6464;
   position: absolute;
   top: 280px;
-  left: 60px;
+  left: 560px;
 }
 
 /* line 761, ../scss/default.scss */
@@ -1150,7 +1150,7 @@ article.smaller q:before, article.smaller q:after {
   color: #a9a9a9;
   position: absolute;
   top: 320px;
-  left: 60px;
+  right: 60px;
 }
 
 /* line 761, ../scss/default.scss */
@@ -1168,7 +1168,7 @@ article.smaller q:before, article.smaller q:after {
   color: #a9a9a9;
   position: absolute;
   top: 360px;
-  left: 60px;
+  right: 60px;
 }
 
 /* line 761, ../scss/default.scss */
@@ -1177,7 +1177,7 @@ article.smaller q:before, article.smaller q:after {
   color: #a9a9a9;
   position: absolute;
   top: 380px;
-  left: 60px;
+  right: 60px;
 }
 
 /* line 761, ../scss/default.scss */
@@ -1209,10 +1209,10 @@ article.smaller q:before, article.smaller q:after {
 
 /* line 761, ../scss/default.scss */
 .source3 {
-  font-size: 20px;
+  font-size: 14px;
   color: #6B6464;
   position: absolute;
-  top: 50px;
+  top: 30px;
   right: 60px;
 }
 
