@@ -919,6 +919,128 @@ function displayChartGeoChartID6f7b8361559() {
   <!-- Presenter Notes -->
 </slide>
 
+      <slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Estado de México</h2>
+  </hgroup>
+  <article>
+    <div class='source1'>
+  Descarga: <a href=https://dl.dropboxusercontent.com/s/kaprkqhms9pqg7i/EdoMex.csv?token_hash=AAHYc_-Q0LNw7_kwtBc-9Mch45KkdNszApFxcRZC5XboqA&dl=1'>Serie de tiempo SESNSP con y sin el Estado de México 2012-2013</a>
+</div>
+
+<div class='source4'>
+<a rel="tooltip" data-original-title="El gráfico presenta los datos nacionales sobre averiguaciones previas por homicido doloso en noviembre 2012 y abril 2013. La serie izquierda representa los datos nacionales completos mientras que la serie derecha presenta los datos nacionales si se omite el Estado de México.">Descripción</a>
+</div>
+
+ <!-- ColumnChart generated in R 2.15.3 by googleVis 0.4.3 package -->
+<!-- Mon May 27 10:02:23 2013 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataColumnChartID333879807634 () {
+  var data = new google.visualization.DataTable();
+  var datajson =
+[
+ [
+ "Nacional",
+1676,
+1563
+],
+[
+ "Nacional sin EdoMex",
+1489,
+1500
+]
+];
+data.addColumn('string','Mes');
+data.addColumn('number','Noviembre 2012');
+data.addColumn('number','Abril 2013');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartColumnChartID333879807634() {
+  var data = gvisDataColumnChartID333879807634();
+  var options = {};
+options["allowHtml"] = true;
+options["width"] = 900;
+options["height"] = 500;
+options["colors"] = ['#585454', '#E64343'];
+options["vAxis"] = {
+ "viewWindowMode": "explicit",
+ "title" : "Homicidios Dolosos",
+"viewWindow": {
+ "max": 1800,
+"min": 1200
+}
+};
+
+     var chart = new google.visualization.ColumnChart(
+       document.getElementById('ColumnChartID333879807634')
+     );
+     chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  var chartid = "corechart";
+
+  // Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+  var i, newPackage = true;
+  for (i = 0; newPackage && i < pkgs.length; i++) {
+    if (pkgs[i] === chartid)
+      newPackage = false;
+  }
+  if (newPackage)
+    pkgs.push(chartid);
+
+  // Add the drawChart function to the global list of callbacks
+  callbacks.push(drawChartColumnChartID333879807634);
+})();
+function displayChartColumnChartID333879807634() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+    var pkgCount = pkgs.length;
+    google.load("visualization", "1", { packages:pkgs, callback: function() {
+      if (pkgCount != pkgs.length) {
+        // Race condition where another setTimeout call snuck in after us; if
+        // that call added a package, we must not shift its callback
+        return;
+      }
+      while (callbacks.length > 0)
+        callbacks.shift()();
+    } });
+  }, 100);
+}
+ 
+// jsFooter
+ </script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartColumnChartID333879807634"></script>
+ 
+<!-- divChart -->
+  
+<div id="ColumnChartID333879807634"
+  style="width: 600px; height: 500px;">
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
       <slide class="" id="slide-7" style="background:;">
   <hgroup>
     <h2>Proyecciones</h2>
@@ -1073,6 +1195,7 @@ Proyección Junio 2013:<br><br>
   </article>
   <!-- Presenter Notes -->
 </slide>
+
 
       <slide class="" id="slide-8" style="background:;">
   <hgroup>
